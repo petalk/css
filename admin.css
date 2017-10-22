@@ -1,0 +1,14 @@
+#links_page{
+    background:white;
+}
+#links li{list-style:none; padding:10pt 10pt 10pt 10pt; font-size:16px;} 
+#links li a{color:black;}
+#links li a:hover{
+    text-decoration:none;
+   border-bottom:solid orange;
+   list-style:none;
+  
+}
+#admin_frame{
+    border:none;
+}

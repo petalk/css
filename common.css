@@ -1,0 +1,53 @@
+ #scrollingList{
+        width: 100%;
+        height:300px;
+        overflow-x: scroll;  
+        overflow-y: hidden;
+        white-space:nowrap;
+        border-top:1px solid #9e9c9c;
+    }
+    #scrollingList li{
+        width:auto;
+        display:inline-block;
+        background:white;
+        margin-right:2%;
+        margin-left:2%;
+    }
+    #scrollingList li a{
+        background:orange;
+        color:white;
+        padding:3pt 10pt 3pt 10pt;
+    }
+    #scrollingList li a:hover{
+        text-decoration:none;
+    }
+    #scrollingList li img{
+        
+        width:180px;
+        Height:140px;
+        margin-bottom:5%;
+    }
+    #scrollingList button{
+        
+        float:left;
+        
+    }
+    #HeadingScrollingList{
+     list-style:none;
+     font-size:24px;
+     color:#cc9900;
+     
+    }
+    #itemName{
+        color:black;
+        font-size:18px;
+        font-weight:bolder;
+        
+    }
+    #price{
+        color:red;
+    }
+    #oldprice{
+        color:gray;
+    }
+   

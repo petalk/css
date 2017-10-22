@@ -1,0 +1,18 @@
+ #items{
+            margin-top:2%;
+            background:white;
+            width:20%;
+            margin-left:3%;
+            float:left;
+            white-space:nowrap;
+            list-style:none;
+            font-size:16px;
+            //text-align:center;
+        }
+        #items img{
+            width:150pt;
+            height:120pt;
+            margin-left:0;
+        }
+        
+           

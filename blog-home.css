@@ -1,0 +1,506 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top:-10px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-size:20px;
+    font-family:ubuntu;
+    background:#f5f5f5;
+    
+}
+#faId{color:#00aced; size:0.3;}
+#bar
+{
+    //background:black;
+}
+#imgheader
+{
+    margin-top: -2%;
+    border-radius:0px 0px 360px 360px;
+}
+.container
+{
+    background:white;
+}
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 82px;
+ padding: 40px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color:black;
+  margin-right:15px;
+}
+  
+ h1, h1.elegantshadow {
+    color: #131313;
+    background-color: #e7e5e4;
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #767676, 
+      -1px 1px 1px #737272, 
+      -1px 1px 1px #767474, 
+      -1px 1px 1px #787777, 
+      -1px 1px 1px #7b7a7a, 
+      -1px 1px 1px #7f7d7d, 
+      -1px 1px 1px #828181, 
+      -1px 1px 1px #868585, 
+      -1px 1px 1px #8b8a89, 
+      -1px 1px 1px #8f8e8d, 
+      -1px 1px 1px #949392, 
+      -1px 1px 1px #999897, 
+      -1px 1px 1px #9e9c9c, 
+      -1px 1px 1px #a3a1a1, 
+      -1px 1px 1px #a8a6a6, 
+      -1px 1px 1px #adabab, 
+      -1px 1px 1px #b2b1b0, 
+      -1px 1px 1px #b7b6b5, 
+      -1px 1px 1px #bcbbba, 
+      -1px 1px 1px #c1bfbf, 
+      -0px 1px 1px #c6c4c4, 
+      -1px 1px 1px #cbc9c8, 
+      -1px 1px 1px #cfcdcd, 
+      -1px 1px 1px #d4d2d1, 
+      -1px 1px 1px #d8d6d5, 
+      -1px 1px 1px #dbdad9, 
+      -1px 1px 1px #dfdddc, 
+      -1px 1px 1px #e2e0df, 
+      -1px 1px 1px #e4e3e2;*/
+ }
+
+h2,h3,h4
+{
+    color:orange;
+    font-size:1.4em;
+    font-family: 'Josefin Slab', serif;
+    letter-spacing:0.1em;
+}
+P{  font-family: 'Josefin Slab', serif; font-size:1em;}
+footer {
+    margin: 50px 0;
+}
+
+#hHeader
+    {
+        background:white;
+        height:;
+       // margin-top:1%;
+         font-family: 'Tangerine', serif;
+    }
+
+    
+#bar
+{
+   background:#006393;
+   border:none; /*#4fffff*/
+   padding-top:5px;
+   border-top:solid #006393;
+}
+#bar ul li a, #bar a
+{
+	color:white;
+	/*background:#b0b0b0;*/
+}
+
+
+#page
+{
+    border-bottom:#006393;
+    color:white;
+}   
+
+.sidebar
+{
+    background:white;
+    margin-top:15%;
+    margin-bottom:10%;
+
+   
+}
+.fb
+{
+//margin-top: 120px;
+  
+
+   
+}
+#verticalLine {
+        //background:#c0c0c0;
+        //border-left: solid #1b6d85;
+       //border-right:solid #1b6d85;
+        
+}
+.well{
+    
+        margin-top: 10%   
+    }
+#posth1
+    {
+        
+        font-size:1.5em;
+       
+        
+    }
+    
+#popular
+    {
+        background:#269abc;
+    }
+#popular p
+    {
+        color:white;
+    }    
+#coverPopular
+    {   
+        margin-top:15%;
+        margin-bottom:15%;
+    }
+#coverPopular img{width:100%;height:60%;margin-left:-5%;}    
+#coverPopular ul li{list-style:none;}   
+#program
+    {
+        background:#f9f9f9;
+        margin-right:4%;
+        margin-top:2%;
+    }    
+#mobProgram
+{
+    display:none
+}    
+#live_data
+{
+    background:white;
+    display:none;
+}
+#commspace
+{
+    margin-left: 3%;
+    margin-top: 0%;
+}
+#comment
+{
+     border-radius: 20px 20px 20px 20px;
+}
+form
+{
+    width:100%;
+}
+input[type="text"],[type="email"],textarea
+{
+    width:60%;
+    margin-bottom:4%;
+    background:;
+    border:#E1E1E1;
+}
+textarea
+{
+    width:90%;
+    
+}
+input[type="sumbit"]
+{
+    padding:10px 30px 10px 30px;
+    background:#269abc;
+}
+#btn-comment{float:right;}
+pre
+{
+    background:#f7f7f7; font-size:14px; font-style:strong; color:black;
+    
+}
+a:hover{text-decoration:none;}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+}
+	
+.container{
+	}
+
+.wrapper{
+	}
+
+#header{
+	border:1px solid #ddd;
+	margin-bottom:20px;
+	}
+	
+
+
+	
+.navbar{
+	border-radius:0;
+	margin-bottom:0;
+	border:none;
+        font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+        height:10px;
+	}
+    
+.navbar > li >a{
+    
+    }
+	
+
+	
+.navbar-header{
+	}
+	
+.navbar-brand{
+width:190px;
+//height:100%;
+float:left;
+padding:0 0 0pt 0;
+margin-top:-10px;
+overflow:hidden;
+height:100%;
+//background-color:transparent;
+//border:3px solid #eee;
+margin-left:-10px;
+//background:#333;
+text-align:center;
+//line-height:160px;
+color:#fff !important;
+font-size:2em;
+    -webkit-transition:  all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+  	-o-transition:  all 0.3s ease-in-out;
+  	transition: all 0.3s ease-in-out ;
+
+	}
+        .navbar-brand:hover{
+        background:white;
+        }	
+	
+.site-name{
+	color:black;
+	font-size:2.4em;
+	float:left;
+	margin-top:-65px !important;
+	margin-left:15px;
+        font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+
+	}	
+.site-description{
+	color:black;
+	font-size:1.3em;
+	float:left;
+	margin-top:-30px !important;
+	margin-left:15px;
+	}
+	
+.main-menu{
+	position:absolute;
+	left:190px;
+	}
+	
+.slider, .carousel{
+	max-height:300px;
+	overflow:hidden;
+	}
+	
+.carousel-control .fa-angle-left,
+.carousel-control .fa-angle-right {
+position: absolute;
+top: 50%;
+font-size:2em;
+z-index: 5;
+display: inline-block;
+}
+
+.carousel img{width:100%;height:30%;}
+.carousel-control{
+	//background-color:transparent;
+	background-image:none !important;
+        background-position-y:0%;
+	}
+	
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color:transparent !important;
+  background-image:none !important;
+  outline: 0;
+}
+
+#mainNav{  background:white;}
+	
+
+	
+	
+@media (max-width: 768px) {
+.navbar-brand{
+    max-width: 100px;
+	max-height:60px;
+	float:left;
+	margin-top:5px;
+	margin-left:15px;
+	-webkit-transition:  all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out;
+  	-o-transition:  all 0.3s ease-in-out;
+  	transition: all 0.3s ease-in-out ;
+  }
+  
+
+  
+
+
+.navbar{
+	border-radius:0;
+	margin-bottom:0;
+	border:none;
+      
+	}
+	
+.main-menu{
+	left:0;
+	position:relative;
+	}
+
+
+}
+
+@media (max-width: 490px) {
+	.site-name{
+	color:black;
+	font-size:1.5em;
+	float:left;
+	line-height:20px;
+	margin-top:-100px !important;
+	margin-left:125px;
+	}	
+.site-description{
+	color:black;
+	font-size:1.3em;
+	float:left;
+	margin-top:-80px !important;
+	margin-left:125px;
+	}
+	}
+
+   #bottomLink{
+            float:right;
+            margin-top:-1%;
+        }
+        #bottomLink .fa{
+            color:orange; //#0095dd;
+            
+        }
+        #bottomLink a:hover{
+            color:orange;
+        }
+        #bottomLink a:hover .fa{
+            color:orange;
+        }
+ 
+ 
+@media screen and (max-width: 992px) {
+  
+    
+    
+    p,.btn,input,div,span,h4 ,ul{
+    font-size:16px;
+     
+  }
+  #LoopHead
+  {
+	  display:block;
+  }
+  
+  #bar ul li a:hover,#bar a:hover
+{
+	opacity:0.5;
+	border-top:none;	
+}
+  
+  h1 {
+    font-size: 24px;  
+  }
+  h2 {
+    font-size: 22px;  
+  }
+  h3 {
+    font-size: 18px;  
+  }
+  img
+  {
+      width:100%;
+      height:200px;
+  }
+  #verticalLine {
+        //background:#c0c0c0;
+        //border-left: thick solid black;
+       // border-top:solid #269abc;
+        
+}
+.fb-page
+{
+    width:90%;
+}
+#fbcomment
+{
+    width:80%;
+}
+
+code
+{
+    font-size:12px;
+}
+
+
+
+#mobProgram
+    {
+        background:#f9f9f9;
+        display:block;
+    }    
+#program
+{
+    display:none
+}    
+#imgheader
+{
+    display:none;
+}
+
+#count{display: none;}
+.nav navbar-nav{border-bottom:none; text-decoration: none;}
+#bs-example-navbar-collapse-1{border-top:none; }
+}
+@media screen and (max-width: 768px) {
+  pre{
+    font-size:10px;
+    }
+   p,.btn,input,div,span,h4 {
+    font-size: 16px;
+   
+  }
+  h1 {
+    font-size: 20px;  
+  }
+  h2 {
+    font-size: 18px;  
+  }
+  h3 {
+    font-size: 16px;  
+  }
+  img
+  {
+      //width:80%;
+      height:200px;
+      width:100%;
+  }
+  .fb-page
+  {
+    width:90%;
+  }
+  #imgheader
+{
+    display:none;
+}
+  #count{display: none;}
+}

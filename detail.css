@@ -1,0 +1,110 @@
+body{
+        font-family:book antiqua;
+        
+    }
+    li{
+        list-style:none;
+    }
+    #thisPage{
+        margin-top:5%;
+    }
+    
+/*    #sliderFrame{
+      float:none;
+      margin-left:5%;
+    }
+    #itemDetailLi{
+        list-style:none;
+        margin-left:10%;
+        width:80%;
+        margin-top:5%;
+    }
+    
+    #detContainer {
+        
+        margin-left:10%;
+    }
+        #detContainer h2{
+            text-align:center;
+        }
+    #detailDescription{
+      
+       //width:50%;
+    }
+        #detailDescription p,#detailDescription button{
+             margin-left:10%;
+             
+             //float:left;
+        }*/
+    #itemName{
+        color:black;
+        font-weight:bolder;
+    }
+        #detailDescription button{
+            background:orange;
+            color:white;
+            padding:5pt 10pt 5pt 10pt;
+            border:none;
+        }
+        #price{
+            color:red;
+            font-size:24px; 
+        }
+        #description{
+
+        }
+    #displayButton{
+        float:right;
+        margin-top:10%;
+        margin-left:10%;
+        border-bottom:;
+    }
+        #displayButton button{
+            border-radius:20px 20px 20px 20px;
+            background:#868585;
+            color:white;
+            border:solid white;
+            border-left:solid orange;
+            padding:2pt 10pt 2pt 10pt;
+        }
+    #Specification,#Features,#Description{
+        float:left;
+        margin-top:5%;
+        margin-left:10%;
+        width:80%;
+        border-top:;
+    }
+    #Specification li,#Features li,#Description li{
+        margin-left:0%;
+    }
+    #specheader
+    {
+        font-weight:bolder;
+    }
+    .mySlides{
+        margin-left:5%;
+        width:80%;
+        height:150pt;
+    }
+/*      #imageContainer{
+        border:solid black;
+        border-top:none;
+    }*/
+    #imageContainer img{
+        width:340px;
+        Height:350px;
+    }
+    .w3-button{
+        background:;
+    }
+    .row{background:}
+    #Description,#Features{
+        display:none;
+    }
+    #desList li{
+        list-style: radial-gradient;
+    }
+   #scroller{
+        margin-top:5%;
+    }
+
