@@ -4,7 +4,7 @@ body{
 }
 #scrollingList{
         width: 100%;
-        height:350px;
+        height:280px;
         overflow-x: scroll;  
         overflow-y: hidden;
         white-space:nowrap;
@@ -44,16 +44,20 @@ body{
     }
     #itemName{
         color:gray;
-        font-size:14px;
+        font-size:16px;
         font-weight:normal;
+        font-family: font-antiqua;
         
         
         
     }
     #price{
         color:red;
+        font-family: font-antiqua;
     }
     #oldprice{
         color:gray;
+        font-family:font-antiqua;
+        font-size:14px;
     }
    
