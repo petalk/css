@@ -20,9 +20,11 @@
             font-size:14px;
         }
         #content a:hover{
-            background:black;
-            
-            color: orange;
+            background:lightskyblue;
+            padding:12px 22px 12px 22px;
+             border-radius:360px;
+                border:solid gray;
+            color: white;
             font-family: font-antiqua;
         }
         
