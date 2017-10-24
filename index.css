@@ -19,12 +19,17 @@
             color :gray;
             font-size:14px;
         }
-        #content a:hover{
-            background:lightskyblue;
-            padding:12px 22px 12px 22px;
-             border-radius:360px;
-                border:solid gray;
-            color: white;
-            font-family: font-antiqua;
+       
+        #itemsContainer a{
+            padding:6px 10px 6px 10px;
+            border-radius:360px;
+            border:solid orange;
+            color:#0099ff;
+            font-family: Aharoni;
+            text-decoration: none;
         }
-        
+        #itemsContainer a:hover{
+            background: lightskyblue;
+            border:solid orange;
+            color:white;
+        }
