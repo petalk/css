@@ -37,23 +37,26 @@
             }
 
             .flipkart-navbar-input {
-                padding: 12px 16px;
+                padding: 10px 16px;
                 border-radius: 2px 0 0 2px;
                 border:1px solid #818181;
                 border-right:0 none;
                 outline: 0 none;
                 font-size: 15px;
                 color:black;
+                border:1px dotted orange;
             }
 
             .flipkart-navbar-button {
-                background-color:#818181;
+                //background-color:#818181;
                 border: 0px solid #818181;
                 border-radius: 0 2px 2px 0;
                 color: #565656;
-                padding: 10px 0;
+                padding: 12px 0;
                 height: 43px;
                 cursor: pointer;
+                background:white;
+                border:1px dotted orange;
             }
 
             .cart-button {
@@ -194,6 +197,7 @@
                 .smallsearch{
                     margin: 0px;
                 }
+              
             }
 
             /*Sidenav*/
@@ -236,4 +240,32 @@
             .sidenav-heading{
                 font-size: 36px;
                 color: #fff;
+            }
+            
+            @media screen and (max-width: 768px) {
+                #logo{
+                    margin-left:0pt;
+                    margin-top:0pt;
+                    margin-top:30pt;
+                }
+                #searchInp{
+                    width:80%;
+                    border:1px dotted orange;
+                }
+                #searchBut{
+                    width:20%;
+                    background:white;
+                    border:1px dotted orange;
+                }
+                .cart-button{
+                    display:block;
+                }
+                .cart-button{
+                    position:fixed;
+                    top:0pt;
+                    right:10%;
+                    z-index:0;
+   
+                }
+                
             }

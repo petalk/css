@@ -65,3 +65,13 @@
 	border-radius: 2px;
 }
 .blueberry .pager li.active a span { background: #404040; }
+
+ @media screen and (max-width:900)
+ {
+     #bluebB {
+	display: block;
+	width: 400pt;
+        height:400pt;
+	max-width: none;
+    }
+ }

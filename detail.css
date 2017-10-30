@@ -8,50 +8,27 @@ body{
     #thisPage{
         margin-top:5%;
     }
-    
-/*    #sliderFrame{
-      float:none;
-      margin-left:5%;
-    }
-    #itemDetailLi{
-        list-style:none;
-        margin-left:10%;
-        width:80%;
-        margin-top:5%;
-    }
-    
-    #detContainer {
+    #detContainer{
         
-        margin-left:10%;
+        border-right:none;
     }
-        #detContainer h2{
-            text-align:center;
-        }
-    #detailDescription{
-      
-       //width:50%;
-    }
-        #detailDescription p,#detailDescription button{
-             margin-left:10%;
-             
-             //float:left;
-        }*/
     #itemName{
         color:black;
         font-weight:bolder;
     }
         #detailDescription button{
-            background:orange;
-            color:white;
+            background:white;
+            color:orange;
             padding:5pt 10pt 5pt 10pt;
             border:none;
+            border:solid orange;
         }
         #price{
             color:red;
             font-size:24px; 
         }
         #description{
-
+            font-weight:normal;
         }
     #displayButton{
         float:right;
@@ -91,8 +68,8 @@ body{
         border-top:none;
     }*/
     #imageContainer img{
-        width:300px;
-        height:250px;
+        width:350px;
+        height:300px;
     }
     .w3-button{
         background:;
@@ -107,4 +84,48 @@ body{
    #scroller{
         margin-top:5%;
     }
-
+    #buyPopup,#boughtPopup{
+        position:fixed;
+        z-index:999;
+        top:25%;
+        right:30%;
+        width:40%;
+        
+    }
+    #buyPopup input{
+       width:40%;
+       margin-left:30%;
+       margin-bottom:2%;
+    }
+    #buyPopup{
+        display:none;
+    }
+    #boughtPopup img{
+        width:250px;
+        height:180px;
+        margin-bottom:3%;
+        margin-left:10%;
+    }
+    #boughtPopup button{
+        margin-left:5%;
+        background:#0099ff;
+        border:none;
+        color:white;
+    }
+    #viewCart{
+        background:#00aced;
+    }
+    #boughtPopup button a{
+/*        width:20%;
+        margin-left:5%;
+        background:#00aced;
+        color:white;
+        padding:5pt 10pt 5pt 10pt;*/
+        text-decoration:none;
+        color:white;
+    }
+    
+    .well{
+        background:white;
+    }
+    
