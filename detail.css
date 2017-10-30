@@ -82,17 +82,17 @@ body{
         font-weight:bolder;
     }
     .mySlides{
-        margin-left:5%;
+/*        margin-left:5%;
         width:80%;
-        height:150pt;
+        height:150pt;*/
     }
 /*      #imageContainer{
         border:solid black;
         border-top:none;
     }*/
     #imageContainer img{
-        width:340px;
-        Height:350px;
+/*        width:340px;
+        Height:350px;*/
     }
     .w3-button{
         background:;
@@ -107,4 +107,24 @@ body{
    #scroller{
         margin-top:5%;
     }
-
+    
+ @media screen and (min-width: 500px) {
+    #imageContainer img{
+      
+      }
+     .mySlides{
+        width:80%;
+        margin-left:20%;
+      }
+  
+  }
+@media screen and (min-width: 360px) {
+    #imageContainer img{
+      
+      }
+     .mySlides{
+        width:80%;
+        margin-left:20%;
+      }
+  
+  }
