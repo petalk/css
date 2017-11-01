@@ -70,4 +70,11 @@ body{
         font-family:font-antiqua;
         font-size:14px;
     }
+    button{
+        background:white;
+    }
+    #buyButton{
+        background:white;
+        padding:5pt 15pt 5pt 15pt;
+    }
  

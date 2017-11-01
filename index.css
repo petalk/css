@@ -33,3 +33,19 @@
             border:solid orange;
             color:white;
         }
+        @media screen and (max-width: 768px) {
+            
+            #items{
+                width:80%;
+                margin-left:10%;
+            }
+            #scrollingList{
+                margin-top:10%;
+            }
+            #bluebB {
+                display: block;
+                width: 400pt;
+                height:400pt;
+                max-width: none;
+            }
+        }

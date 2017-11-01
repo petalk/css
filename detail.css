@@ -8,50 +8,27 @@ body{
     #thisPage{
         margin-top:5%;
     }
-    
-/*    #sliderFrame{
-      float:none;
-      margin-left:5%;
-    }
-    #itemDetailLi{
-        list-style:none;
-        margin-left:10%;
-        width:80%;
-        margin-top:5%;
-    }
-    
-    #detContainer {
+    #detContainer{
         
-        margin-left:10%;
+        border-right:none;
     }
-        #detContainer h2{
-            text-align:center;
-        }
-    #detailDescription{
-      
-       //width:50%;
-    }
-        #detailDescription p,#detailDescription button{
-             margin-left:10%;
-             
-             //float:left;
-        }*/
     #itemName{
         color:black;
         font-weight:bolder;
     }
         #detailDescription button{
-            background:orange;
-            color:white;
+            background:white;
+            color:orange;
             padding:5pt 10pt 5pt 10pt;
             border:none;
+            border:solid orange;
         }
         #price{
             color:red;
             font-size:24px; 
         }
         #description{
-
+            font-weight:normal;
         }
     #displayButton{
         float:right;
@@ -82,17 +59,17 @@ body{
         font-weight:bolder;
     }
     .mySlides{
-/*        margin-left:5%;
+        margin-left:5%;
         width:80%;
-        height:150pt;*/
+        height:150pt;
     }
 /*      #imageContainer{
         border:solid black;
         border-top:none;
     }*/
     #imageContainer img{
-/*        width:340px;
-        Height:350px;*/
+        width:350px;
+        height:300px;
     }
     .w3-button{
         background:;
@@ -107,24 +84,61 @@ body{
    #scroller{
         margin-top:5%;
     }
+    #buyPopup,#boughtPopup{
+        position:fixed;
+        z-index:999;
+        top:25%;
+        right:30%;
+        width:40%;
+        
+    }
+    #buyPopup input{
+       width:40%;
+       margin-left:30%;
+       margin-bottom:2%;
+    }
+    #buyPopup{
+        display:none;
+    }
+    #boughtPopup img{
+        width:250px;
+        height:180px;
+        margin-bottom:3%;
+        margin-left:10%;
+    }
+    #boughtPopup button{
+        margin-left:5%;
+        background:#0099ff;
+        border:none;
+        color:white;
+    }
+    #viewCart{
+        background:#00aced;
+    }
+    #boughtPopup button a{
+/*        width:20%;
+        margin-left:5%;
+        background:#00aced;
+        color:white;
+        padding:5pt 10pt 5pt 10pt;*/
+        text-decoration:none;
+        color:white;
+    }
     
- @media screen and (min-width: 500px) {
-    #imageContainer img{
-      
-      }
-     .mySlides{
-        width:80%;
-        margin-left:20%;
-      }
-  
-  }
-@media screen and (min-width: 360px) {
-    #imageContainer img{
-      
-      }
-     .mySlides{
-        width:80%;
-        margin-left:20%;
-      }
-  
-  }
+    .well{
+        background:white;
+    }
+    #detDesc{
+        margin-top: 40px;
+        color:black;
+        border-left: solid orange;
+        font-size: 15px;
+        background-color:#ccccff;
+    }
+    #detSpo{
+        color:black;
+        border-left: solid orange;
+        font-size: 13px;
+        text-align: center;
+        background-color:#ccccff;
+    }
