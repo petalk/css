@@ -84,7 +84,7 @@ body{
    #scroller{
         margin-top:5%;
     }
-    #buyPopup,#boughtPopup{
+    #CartPopup,#BuynowPopup{
         position:fixed;
         z-index:999;
         top:25%;
@@ -92,38 +92,25 @@ body{
         width:40%;
         
     }
-    #buyPopup input{
+    #CartPopup input,#BuynowPopup input{
        width:40%;
        margin-left:30%;
        margin-bottom:2%;
     }
-    #buyPopup{
+    #CartPopup,#BuynowPopup{
         display:none;
     }
-    #boughtPopup img{
+    #boughtPopup img,#BuynowPopup image{
         width:250px;
         height:180px;
         margin-bottom:3%;
         margin-left:10%;
     }
-    #boughtPopup button{
-        margin-left:5%;
-        background:#0099ff;
-        border:none;
-        color:white;
-    }
+  
     #viewCart{
         background:#00aced;
     }
-    #boughtPopup button a{
-/*        width:20%;
-        margin-left:5%;
-        background:#00aced;
-        color:white;
-        padding:5pt 10pt 5pt 10pt;*/
-        text-decoration:none;
-        color:white;
-    }
+   
     
     .well{
         background:white;
