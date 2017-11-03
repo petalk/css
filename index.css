@@ -7,8 +7,13 @@
             display: inline-block;
             list-style:none;
             font-size:16px;
+            
             //text-align:center;
         }
+        #items:hover{
+            border:1px solid skyblue;
+        }
+        
         #items img{
             width:120pt;
             height:100pt;
@@ -23,21 +28,20 @@
         #itemsContainer a{
             padding:6px 10px 6px 10px;
             border-radius:360px;
-            border:solid orange;
+            border:solid skyblue;
             color:#0099ff;
             font-family: Aharoni;
             text-decoration: none;
         }
         #itemsContainer a:hover{
             background: lightskyblue;
-            border:solid orange;
+            border:solid skyblue;
             color:white;
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-witdh: 960px),screen and (min-width:800px){
             
             #items{
-                width:80%;
-                margin-left:10%;
+                width:160pt;
             }
             #scrollingList{
                 margin-top:10%;
@@ -47,5 +51,11 @@
                 width: 400pt;
                 height:400pt;
                 max-width: none;
+            }
+        }
+        @media screen and  (max-width:400px){
+            #items{
+                width:80%;
+                margin-left:7%;
             }
         }
