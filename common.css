@@ -3,13 +3,13 @@ body{
     font-family: book antiqua;
 }
 #scrollingList{
+        margin-top: 10px;
         width: 100%;
-        height:280px;
-        overflow:auto;
-/*        overflow-x: scroll;  
-        overflow-y: hidden;*/
+        height:320px;
+        overflow-x: scroll;  
+        overflow-y: hidden;
         white-space:nowrap;
-        border-top:1px solid #9e9c9c;
+        
     }
     #scrollingList li{
         width:auto;
@@ -18,12 +18,16 @@ body{
         margin-right:2%;
         margin-left:2%;
     }
+    #scrollingList li:hover{
+        border: 1px solid skyblue;
+    }
+    
     #scrollingList li a{
         
         color:#0099ff;
         padding:5px 11px 5px 11px;
         border-radius:360px;
-        border:solid orange;
+        border:solid skyblue;
         font-family: Aharoni;
         
     }
@@ -31,7 +35,7 @@ body{
           background:lightskyblue;
           padding:6px 12px 6px 12px;
           border-radius:360px;
-          border:solid orange;
+          border:solid skyblue;
           color: white;
           font-family: Aharoni;
           text-decoration: none;
@@ -39,7 +43,7 @@ body{
     #scrollingList li img{
         
         width:180px;
-        Height:140px;
+        height:140px;
         margin-bottom:5%;
     }
     #scrollingList button{
@@ -49,8 +53,10 @@ body{
     }
     #HeadingScrollingList{
      list-style:none;
-     font-size:24px;
-     color:#cc9900;
+     font-size:28px;
+     color:#006393;
+     font-family: Abbey Medium Extended;
+     margin-left: 7%;
      
     }
     #itemName{
