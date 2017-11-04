@@ -18,10 +18,16 @@ body{
     }
         #detailDescription button{
             background:white;
-            color:orange;
+            color:#00aced;
             padding:5pt 10pt 5pt 10pt;
             border:none;
-            border:solid orange;
+            border:solid #00aced;
+            
+        }
+        #detailDescription button:hover{
+            background: #00aced;
+            color:white;
+            
         }
         #price{
             color:red;
@@ -38,11 +44,14 @@ body{
     }
         #displayButton button{
             border-radius:20px 20px 20px 20px;
-            background:#868585;
+            background:skyblue;
             color:white;
             border:solid white;
-            border-left:solid orange;
-            padding:2pt 10pt 2pt 10pt;
+            border-left:solid #00aced;
+            padding:4pt 12pt 4pt 12pt;
+        }
+        #displayButton button:hover{
+            background: #00aced;
         }
     #Specification,#Features,#Description{
         float:left;
@@ -105,6 +114,7 @@ body{
         height:180px;
         margin-bottom:3%;
         margin-left:10%;
+        
     }
   
     #viewCart{

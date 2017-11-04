@@ -78,6 +78,7 @@
 
             .cart-button:hover{
                 text-decoration: none;
+                background:#00aced; 
                 color: #fff;
                 cursor: pointer;
             }
