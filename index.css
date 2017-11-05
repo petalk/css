@@ -8,6 +8,7 @@
             display: inline-block;
             list-style:none;
             font-size:16px;
+            text-overflow:ellipsis;
             white-space:nowrap;
             
             //text-align:center;
@@ -17,8 +18,9 @@
         }
         
         #items img{
-            width:80%;
-            height:80pt;
+            width:120pt;
+            margin-left:20%;
+            height:100pt;
             margin-left:0;
         }
         #stock{
@@ -28,6 +30,7 @@
         }
        
         #itemsContainer a{
+            
             padding:6px 10px 6px 10px;
             border-radius:360px;
             border:solid skyblue;
