@@ -164,3 +164,19 @@ body{
     }
    
     /*------------------*/
+    .relevantItems{
+        margin-top:20pt;
+    }
+    #relevantItems{
+        border-bottom:2px solid #efefef;
+        text-align:center;
+    }
+    #relevantItems h4{
+        visibility:hidden;
+    }
+    #activeDiv{
+        text-align:center;
+        border:2px solid #efefef;
+        border-bottom:white;
+    }
+  

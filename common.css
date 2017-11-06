@@ -77,6 +77,8 @@ body{
         color:gray;
         font-family:font-antiqua;
         font-size:14px;
+        float:right;
+        border:1px solid red;
     }
     button{
         background:white;
