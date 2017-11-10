@@ -87,4 +87,16 @@ body{
         background:white;
         padding:5pt 15pt 5pt 15pt;
     }
- 
+    #checkOutBtn{
+        background:#0099ff;
+        padding:5pt 20pt 5pt 20pt;
+        opacity:1;
+        border:none;
+        color:white;
+        font-size:16px;
+    }
+    #checkOutBtn i,checkOutBtn a{
+        font-size:16pt;
+        padding-right:5pt;
+        color:white;
+    }
